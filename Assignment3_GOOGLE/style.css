@@ -1,0 +1,36 @@
+/* add your CSS here */
+
+div {
+	margin: auto;
+	width: 50%;
+	border-style: hidden;
+	padding: 10px;
+}
+
+.input-form{
+	border-style: solid;
+	border-color: #888888;
+	width: 300px;
+	height: 30px;
+}
+
+button {
+	border-style: solid;
+	border-color: #888888;
+	border-radius: 5px;	
+	height: 30px;
+
+}
+
+h1::first-letter {
+	color: #0057e7;
+}
+
+h1:nth-child(3) {
+	color: #d62d20;
+}
+
+
+
+
+
