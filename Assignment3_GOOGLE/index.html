@@ -1,18 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
+    
     <meta charset="utf-8" />
     <title>Google Search</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <div>
-      <h1>GOOGLE SEARCHME</h1>
+      <h1><span id="G">G</span><span id="O">O</span><span id="O2">O</span><span id="G">G</span><span id="L">L</span><span id="E">E</span> SEARCH</h1>
       <!-- SEARCH AREA -->
-      <form class="search-form">
-        <input class="input-form">
-        <button onclick="window.location.href='http://www.google.com'" type="submit">Search Me</button>
+      <form  class="search-form">
+        <input id="search" type="search" class="input-form">
+        <button  onclick="askGoogle()" type="submit">Search Me</button>
       </form>
-    </div>  
+      <p>I am feeling very <span>happy,energetic,...</span></p>
+    </div>
+
+    <script type="text/javascript">
+      
+      function askGoogle(){
+
+        var input = document.getElementById("search").value;
+        window.open("https://www.google.com/search?q="+input);
+      }
+
+
+    </script> 
+
+    
+
   </body>
 </html>

@@ -5,32 +5,66 @@ div {
 	width: 50%;
 	border-style: hidden;
 	padding: 10px;
+	margin-top: 300px;
 }
 
 .input-form{
-	border-style: solid;
-	border-color: #888888;
-	width: 300px;
-	height: 30px;
+	border: 2px solid #ccc;
+	box-sizing: border-box;
+	width: 70%;
+	display: inline-block;
+	height: 40px;
+	margin-right: 10px;
+	margin-left: 20px;
 }
 
 button {
-	border-style: solid;
-	border-color: #888888;
+	border: 1px #888888 solid;
 	border-radius: 5px;	
 	height: 30px;
-
+	cursor: pointer;
+	width: 25%;
+	height: 35px;
+	background-color: white;
 }
 
-h1::first-letter {
+h1	{
+	margin: auto;
+	padding: 10px;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+#O {
+	color: 	#d62d20;
+}
+
+#O2 {
+	color: #ffa700;
+}
+
+#G {
 	color: #0057e7;
 }
 
-h1:nth-child(3) {
-	color: #d62d20;
+#L {
+	color: #008744;
 }
 
+#E {
+	color: 	#d62d20;
+}
 
+p{
+	font-size: 30px;
+	text-align: center;
+}
 
+span {
+	color: purple;
+
+}
 
 
